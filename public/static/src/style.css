@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:992px) {
+
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:1400px) {
+
+    .container {
+        max-width: 720px
+    }
+}

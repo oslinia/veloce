@@ -1,0 +1,19 @@
+{
+    "name": "veloce/framework",
+    "description": "A lightweight PHP framework with compiled routing and a DI container",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Veloce\\": "src/",
+            "Application\\": "application/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

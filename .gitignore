@@ -1,0 +1,18 @@
+# Зависимости
+/vendor/
+
+# Логи (игнорируем файлы, но оставляем структуру папок)
+/logs/*.log
+
+# Кэш и настройки (игнорируем всё содержимое)
+/resource/cache/routing/*.php
+/resource/cache/salt.php
+/resource/cache/setting.php
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Настройки IDE
+/.vscode/
+/.idea/
